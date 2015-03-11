@@ -10,5 +10,9 @@ int main(int argc, char *argv[]) {
 	printf("%f\n", 1.2+334.654); // %f print a float number 
 	printf("%.16f\n",sin(2.0*M_PI/3.0));
 	printf("%s\n",name);
+	printf("%c\n",name[5]);
+	printf("%s\n",name+3);
+	printf("%u\n",name);
+	printf("%u\n",name+3);
 	return 0;
 }
