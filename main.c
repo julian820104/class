@@ -5,6 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	printf("hello world\n");
-	printf("%d", 2+3);  //%d print an integer 
+	printf("%d\n", 2+3);  //%d print an integer
+	printf("%f\n", 1.2+334.654); // %f print a float number 
 	return 0;
 }
