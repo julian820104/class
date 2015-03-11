@@ -7,5 +7,6 @@ int main(int argc, char *argv[]) {
 	printf("hello world\n");
 	printf("%d\n", 2+3);  //%d print an integer
 	printf("%f\n", 1.2+334.654); // %f print a float number 
+	printf("%f\n",sin(2.0*M_PI/3.0));
 	return 0;
 }
