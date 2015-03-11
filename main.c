@@ -5,5 +5,6 @@
 
 int main(int argc, char *argv[]) {
 	printf("hello world\n");
+	printf("%d", 2+3);  //%d print an integer 
 	return 0;
 }
